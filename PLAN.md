@@ -69,8 +69,9 @@ Each workout type has specific exercises with weights that add up to 1.0
   Dumbbell Lateral Raise 0.075, Overhead Dumbbell Extension 0.075
 - **Lower A**: Dumbbell Goblet Squat (Back) 0.2, Dumbbell Goblet Squat
   (Front) 0.2, Dumbbell Bulgarian Split Squat 0.15, Dumbbell Reverse Lunge
-  0.15, Standing Dumbbell Calf Raise 0.1, Russian Twist / Leg Raise (Floor)
-  0.1, Plank 0.1
+  0.15, Standing Dumbbell Calf Raise 0.1, Leg Raise (Floor) 0.1, Plank 0.1
+  (Leg Raise (Floor) was "Russian Twist / Leg Raise (Floor)"; saved
+  workouts still use that original name, so its history carries over.)
 - **Upper B**: One-Arm Dumbbell Row 0.15, Pull-ups 0.175, Chin-ups 0.175,
   Dumbbell Rear Delt Fly 0.125, Dumbbell Curl 0.125, Hammer Curl 0.125,
   Dumbbell Shrugs 0.125
@@ -390,9 +391,16 @@ single step below.
       saved-data addition).
     - **27f**: effort as one 1–10 rating with big buttons after the last
       exercise (scoring unchanged).
-    - **27g**: installable/offline app — on hold. Needs the app hosted on
-      a website (e.g. GitHub Pages), and each device keeps its own data;
-      to be discussed first.
+    - ~~27g: installable/offline app~~ — dropped (would need hosting, and
+      each device would keep separate data).
+28. **Leg Raise (Floor)** — Russian twists dropped: the exercise shows as
+    "Leg Raise (Floor)" (a default rename, so history carries over) and
+    works abs (primary) and obliques (secondary). Default renames now
+    combine with your own renames from Settings.
+29. **Day arrows on Today** — ‹ and › beside the day's title step one day
+    back or forward (› is off on today; future days can't be edited, same
+    as the Calendar). Unsaved changes ask first, as with "Back to today".
+    Past days are titled just by date ("Tue, Oct 27").
 
 ### Exercise → muscle list (primary; secondary)
 
@@ -409,7 +417,7 @@ single step below.
 | Dumbbell Bulgarian Split Squat | quads, glutes | adductors, hamstrings |
 | Dumbbell Reverse Lunge | quads, glutes | hamstrings, adductors |
 | Standing Dumbbell Calf Raise | calves | — |
-| Russian Twist / Leg Raise (Floor) | abs, obliques | — |
+| Leg Raise (Floor) | abs | obliques |
 | Plank | abs | obliques, lower back |
 | One-Arm Dumbbell Row | lats, upper back | rear delts, biceps |
 | Pull-ups | lats | upper back, biceps, forearms |
